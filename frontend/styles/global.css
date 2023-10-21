@@ -1,0 +1,156 @@
+html,
+body,
+main,
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Bootstrap colour overrides */
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #7749f8;
+    --bs-btn-border-color: #7749f8;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5b24f7;
+    --bs-btn-hover-border-color: #5218f6;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #5b24f7;
+    --bs-btn-active-border-color: #5218f6;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #7749f8;
+    --bs-btn-disabled-border-color: #7749f8;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #7749f8;
+    --bs-btn-border-color: #7749f8;
+    --bs-btn-hover-color: #7749f8;
+    --bs-btn-hover-bg: #f0e7ff;
+    --bs-btn-hover-border-color: #7749f8;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #7749f8;
+    --bs-btn-active-bg: #f0e7ff;
+    --bs-btn-active-border-color: #7749f8;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #7749f8;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #7749f8;
+    --bs-gradient: none;
+}
+
+[template] {
+    display: none;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    height: 48px;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bg-body-tertiary {
+    background-color: #faf5ff!important;
+    padding: 0;
+}
+
+.website-name {
+    font-weight: bold;
+    color: #8364d4;
+}
+
+.home-btn {
+    font-size: 13.5pt;
+    font-weight: 500;
+    color: #8364d4;
+    margin-left: 10px;
+
+}
+
+.home-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 500px) {
+    /* .home-btn .text {
+        display: none;
+    } */
+    .website-name {
+        display: none;
+    }
+    
+}
+
+.start-post .profile-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-pic:hover {
+    cursor: pointer;
+}
+
+.btn-link.dropdown-toggle::after {
+    color: #7749f8;
+}
+
+
+/* Start post button */
+.start-post .btn-outline-secondary {
+    --bs-btn-border-radius: 100px;
+    --bs-btn-font-size: 15px;
+    --bs-btn-font-weight: 500;
+    --bs-btn-line-height: 20px;
+    --bs-btn-hover-bg: #ebebeb;
+    --bs-btn-hover-color: #5e5e5e;
+    --bs-btn-active-color: #5e5e5e;
+    --bs-btn-active-bg: #ebebeb;
+    --bs-btn-active-border-color: #a4a4a4;
+    --bs-btn-color: #5e5e5e;
+    --bs-btn-border-color: #a4a4a4;
+    --bs-btn-hover-border-color: #a4a4a4;
+    justify-content: left;
+}
+
+
+/* Add watchee button */
+
+.navbar .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #8364d4;
+    --bs-btn-border-color: #8364d4;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8364d4;
+    --bs-btn-hover-border-color: #8364d4;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #8364d4;
+    --bs-btn-active-border-color: #8364d4;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #8364d4;
+    --bs-btn-disabled-border-color: #8364d4;
+}
