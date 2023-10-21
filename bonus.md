@@ -1,0 +1,9 @@
+- Implemented caching for fetching user info
+- Live updates for everything!
+  - Likes and comment counts/lists get updated
+  - All job information if edited gets updated
+  - Jobs appear/disappear if created/deleted
+  - The number/list of watchers gets updated
+  - All user information will change in all locations if updated
+  - Possible interactions are live updated (e.g. can like a post after watching user)
+- Added a sign out button

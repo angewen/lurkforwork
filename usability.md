@@ -1,0 +1,10 @@
+- Pretty login page :D
+- Meaningful text on all images
+- Labels on all form inputs
+- "alert" role for success/error alerts and toasts
+- Ensured page is operable by keyboard
+- aria-label for icon only buttons
+- When you cant e.g. like a users post because you dont follow them, it will disable the button
+  - Flows better than throwing an error
+  - A tooltip is displayed to explain why it is disabled
+  - This tooltip is focusable by screen readers
